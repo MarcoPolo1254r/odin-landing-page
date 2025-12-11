@@ -132,3 +132,23 @@ img {
     mask-image: radial-gradient(circle,black,black 65%, transparent 90%);
 }
 
+.content3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #e5e7eb;
+}
+
+.content3 .text{
+    width: 350px;
+    font-size: 18px;
+    font-weight: 300;
+    column-rule: #1f2937;
+    text-wrap: wrap;
+}
+
+.content3 .signature {
+    width: 80vh;
+    text-align: right;
+}
