@@ -69,8 +69,9 @@ img {
 .content1{
     display: flex;
     align-items: center;
+    justify-content: center;
     height: 250px;
-    justify-content: space-evenly;
+    gap: 48px;
     background-color: #1f2937;
 }
 
@@ -98,11 +99,36 @@ img {
 .right-content1 img {
     height: 200px;
     width: 300px;
+    mask-image: radial-gradient(circle, black, black, transparent 100%);
 }
 
 .footer {
     height: 40px;
     align-content: center;
     text-align: center;
+}
+
+.content2 .title{
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    padding: 16px 0;
+}
+
+.content2 .cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+    
+}
+
+.cardsimg{
+    width: 150px;
+    height: 150px;
+    border: 5px solid transparent;
+    mask-image: radial-gradient(circle,black,black 65%, transparent 90%);
 }
 
