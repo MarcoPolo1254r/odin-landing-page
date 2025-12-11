@@ -24,3 +24,11 @@ The design is based on a reference image provided in the lesson, and the challen
 - When to use **containers** and how to center content effectively
 - Using consistent styles and a simple color palette
 - Building a fully structured HTML document from scratch
+
+## Images Credits
+
+Photo by Lum3n
+Photo by Faith & Yarn
+Photo by Jason Leung
+Photo by Claudio Schwarz
+Photo by Tobias Tullius            
