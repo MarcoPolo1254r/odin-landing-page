@@ -61,7 +61,6 @@ img {
 }
 
 .content > * {
-    border: 2px solid red;
     flex:1;
     width: 100%;
 }
@@ -100,12 +99,6 @@ img {
     height: 200px;
     width: 300px;
     mask-image: radial-gradient(circle, black, black, transparent 100%);
-}
-
-.footer {
-    height: 40px;
-    align-content: center;
-    text-align: center;
 }
 
 .content2 .title{
@@ -151,4 +144,48 @@ img {
 .content3 .signature {
     width: 80vh;
     text-align: right;
+}
+
+.content4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content4 .bluebox{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    min-width: 85vh;
+    min-height: 60px;
+    border-radius: 10px;
+    background-color: #3882f6;
+}
+
+.bluebox button {
+    color: white;
+    background-color: #3882f6;
+    padding: 8px 24px;
+    border: none;
+    border-radius: 15px;
+    border: 1px solid white;
+}
+
+.footer {
+    height: 40px;
+    align-content: center;
+    text-align: center;
+}
+
+.bold-title {
+   font-size: 18px;
+   color: #f9faf8;
+   font-weight: 900; 
+}
+
+.small-text {
+    color: #e5e7eb;
+    font-size: 14px;
+    width: 300px;
+    text-wrap: wrap;
 }
