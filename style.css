@@ -1,0 +1,49 @@
+@import url('fonts.googleapis.com');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+.layout {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+img {
+    height: 48px;
+    width: 48px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 1em;
+    background-color: #1f2937;
+}
+
+.right-header, .left-header {
+    display: flex;
+    gap: 24px;
+}
+
+.left-header .text {
+    align-content: center;
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+.right-header a{
+    text-decoration: none;
+    font-style: italic;
+    font-size: 18px;
+    font-weight: 400;
+    color: #e5e7eb;
+}
